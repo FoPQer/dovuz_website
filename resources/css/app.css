@@ -1,3 +1,38 @@
+@import "style.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-4xl; /* 36px */
+        @apply leading-9;
+    }
+    h2 {
+        @apply text-2xl; /* 24px */
+        @apply leading-6;
+    }
+    h3 {
+        @apply text-xl; /* 20px */
+        @apply leading-5;
+    }
+    h4 {
+        @apply text-base; /* 16px */
+        @apply leading-4;
+    }
+    p, .p {
+        @apply text-lg; /* 18px */
+        @apply leading-[18px];
+    }
+    span {
+        @apply text-sm; /* 14px */
+        @apply leading-[14px];
+        @apply block;
+    }
+    a {
+        @apply text-sm; /* 14px */
+        @apply leading-[14px];
+    }
+}
+

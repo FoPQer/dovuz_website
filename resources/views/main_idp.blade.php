@@ -1,4 +1,3 @@
-
 <main class="bg-background pt-1">
     <div class="h-20 lg:h-44">
 
@@ -15,7 +14,7 @@
             <ul class="list-none text-black text-lg leading-[18px]">
                 <li>
                     <details class="duration-500 py-5 ">
-                        <summary class="list-none flex cursor-pointer open:after:rotate-180 after:content-[url('imgs/programms_after.svg')]
+                        <summary class="list-none flex cursor-pointer open:after:rotate-180 after:content-[url('/public/imgs/programms_after.svg')]
                                     after:pl-4 after:block">
                             Программы
                         </summary>
@@ -59,7 +58,7 @@
     <!-- Блок "Слушай Решай Поступай" -->
     <section class="p-5 lg:flex lg:flex-row justify-between 2xl:px-72 xl:px-52 lg:px-24">
         <div class="w-full lg:pr-5 xl:pr-8 lg:w-1/2">
-            <article class="rounded-lg min-h-208 h-auto lg:h-full bg-cover bg-center bg-[url('imgs/main_background.png')]">
+            <article class="rounded-lg min-h-208 h-auto lg:h-full bg-cover bg-center bg-[url('/public/imgs/main_background.png')]">
                 <div class="font-medium text-2xl leading-6 lg:text-4xl uppercase pl-9 pt-9">
                     <h2 class="text-dark_yellow font-rubik">Слушай</h2>
                     <h2 class="text-pink font-rubik">Решай</h2>
@@ -113,7 +112,7 @@
                     <!-- Slide 1 -->
                     <div class="swiper-slide p-5">
                         <div class="rounded-lg bg-cover bg-center flex flex-col justify-end h-52
-                         bg-[url('imgs/chats_telegram.png')]">
+                         bg-[url('/public/imgs/chats_telegram.png')]">
                             <h3 class="uppercase text-xl leading-[20px] text-white font-bold block p-4 rounded-b-lg shadow">Координационные
                                 чаты в telegram
                             </h3>
@@ -126,7 +125,7 @@
                     <!-- Slide 2 -->
                     <div class="swiper-slide p-5">
                         <div class="rounded-lg bg-cover bg-center flex flex-col justify-end h-52
-                         bg-[url('imgs/advantages.png')]">
+                         bg-[url('/public/imgs/advantages.png')]">
                             <h3 class="uppercase text-white font-bold block p-4 rounded-b-lg
                             shadow">
                                 Преимущества при поступлении на бюджет
@@ -140,7 +139,7 @@
                     <!-- Slide 3 -->
                     <div class="swiper-slide p-5">
                         <div class="rounded-lg bg-cover bg-center flex flex-col justify-end h-52
-                         bg-[url('imgs/discounts.png')]">
+                         bg-[url('/public/imgs/discounts.png')]">
                             <h3 class="uppercase text-dark_yellow font-bold block p-4
                             rounded-b-lg shadow">
                                 Скидки при поступлении на договорной основе
@@ -155,7 +154,7 @@
                     <!-- Slide 4 -->
                     <div class="swiper-slide p-5">
                         <div class="rounded-lg bg-cover bg-center flex flex-col justify-end h-52
-                         bg-[url('imgs/teachers.png')]">
+                         bg-[url('/public/imgs/teachers.png')]">
                             <h3 class="uppercase text-white font-bold block p-4 rounded-b-lg
                             shadow">
                                 Преподавательский состав
@@ -170,7 +169,7 @@
                     <!-- Slide 5 -->
                     <div class="swiper-slide p-5">
                         <div class="rounded-lg bg-cover bg-center flex flex-col justify-end h-52
-                         bg-[url('imgs/results.png')]">
+                         bg-[url('/public/imgs/results.png')]">
                             <h3 class="uppercase text-dark_yellow font-bold block p-4
                             rounded-b-lg shadow">
                                 Результаты подготовки к экзаменам
@@ -184,7 +183,7 @@
                     <!-- Slide 6 -->
                     <div class="swiper-slide p-5">
                         <div class="rounded-lg bg-cover bg-center flex flex-col justify-end h-52
-                         bg-[url('imgs/programms.png')]">
+                         bg-[url('/public/imgs/programms.png')]">
                             <h3 class="uppercase text-dark_yellow font-bold block p-4
                             rounded-b-lg shadow">
                                 Официальные программы РТУ МИРЭА
@@ -198,10 +197,10 @@
                 </div>
                 <div class="static">
                     <div class="swiper-button-prev bg-dark_yellow text-white2 rounded-full w-10 h-10 absolute top-32
-                    left-0 lg:left-[-10] after:content-[url('imgs/prev.svg')] after:leading-[14px] duration-300
+                    left-0 lg:left-[-10] after:content-[url('/public/imgs/prev.svg')] after:leading-[14px] duration-300
                     hover:scale-105 hover:duration-300"></div>
                     <div class="swiper-button-next bg-dark_yellow text-white2 rounded-full w-10 h-10 absolute top-32
-                    right-0 after:content-[url('imgs/next.svg')] after:leading-[14px] duration-300
+                    right-0 after:content-[url('/public/imgs/next.svg')] after:leading-[14px] duration-300
                     hover:scale-105 hover:duration-300"></div>
                 </div>
             </div>
@@ -220,7 +219,7 @@
                             подготовительных курсов егэ
                         </span>
                         <a href="#" target="_blank" class="text-pink underline uppercase
-                        after:content-[url('imgs/continue.svg')] after:pl-1.5">
+                        after:content-[url('/public/imgs/continue.svg')] after:pl-1.5">
                             Подробнее
                         </a>
                     </div>
@@ -235,7 +234,7 @@
                             фмш
                         </span>
                         <a href="#" target="_blank" class="text-pink underline uppercase
-                        after:content-[url('imgs/continue.svg')] after:pl-1.5">
+                        after:content-[url('/public/imgs/continue.svg')] after:pl-1.5">
                             Подробнее
                         </a>
                     </div>
@@ -250,3 +249,30 @@
             </a>
         </div>
     </section>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            direction: 'horizontal',
+            loop: true,
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 1
+                },
+                560: {
+                    slidesPerView: 2
+                },
+                1035: {
+                    slidesPerView: 3
+                },
+                1470: {
+                    slidesPerView: 4
+                }
+            }
+        });
+    </script>
+    <script src="js/script_menu.js"></script>
+</main>

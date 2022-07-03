@@ -23,6 +23,7 @@
                 </a>
             </div>
             <div id="nav" class="cursor-pointer pr-5 lg:hidden">
+                <script>console.log("z")</script>
                 <div id="icon" role="button" class="relative w-4 h-8 left-2 flex justify-center items-center before:absolute
          before:w-7 before:h-0.5 before:bg-black before:translate-y-[-10px] before:shadow-[0_10px] before:shadow-black
          before:delay-500 after:absolute after:w-7 after:h-0.5 after:bg-black after:translate-y-[10px] after:delay-500">
